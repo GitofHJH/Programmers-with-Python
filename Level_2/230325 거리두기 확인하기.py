@@ -43,7 +43,7 @@ def solution(places):
                     for x2, y2 in get_person(place, x1, y1):
                         if not check1(place, x1, y1, x2, y2):
                             flag = True
-                    if not check2(place, x1, x2):
+                    if not check2(place, x1, y1):
                         flag = True
         if flag: answer.append(0)
         else: answer.append(1)

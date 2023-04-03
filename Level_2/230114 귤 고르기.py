@@ -13,3 +13,17 @@ def solution(k, tangerine):
         if k <= 0: break
     
     return answer
+
+# from collections import Counter
+
+# def solution(k, tangerine):
+#     answer = 0
+#     counter = dict(Counter(tangerine))
+#     counter = dict(sorted(counter.items(), key=lambda x: -x[1]))
+#     print(counter)
+#     for key, val in counter.items():
+#         k -= val
+#         answer += 1
+#         if k <= 0:
+#             break
+#     return answer

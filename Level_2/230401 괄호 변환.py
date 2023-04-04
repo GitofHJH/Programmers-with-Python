@@ -43,7 +43,7 @@ def func(p):
     u = u[1:-1]
     tmp2 = ''
     for char in u:
-        if u == ")":
+        if char == ")":
             tmp2 += "("
         else:
             tmp2 += ")"
